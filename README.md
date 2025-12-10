@@ -7,21 +7,20 @@ This repository contains the complete code, figures, and written tutorial for th
 The repository is organised as follows:
 
 
-├── notebook/
-│ └── 24074613_ML_Code.ipynb
-│
-├── figures/ # Folder containing all exported figures
-│ ├── loss_curves.png # Training loss vs epoch
-│ ├── accuracy_curves.png # Validation accuracy vs epoch
-│ ├── test_accuracy_bar.png # Test accuracy for Bar chart
-│ ├── cm_baseline.png # Confusion matrix (baseline)
-│ ├── cm_flip.png # Confusion matrix (flip augmentation)
-│ ├── cm_rotation.png # Confusion matrix (rotation augmentation)
-│ ├── cm_shiftzoom.png # Confusion matrix (shift/zoom augmentation)
-│ └── cm_heavy.png # Confusion matrix (heavy augmentation)
-│
-├── README.md # This documentation file
-└── LICENSE # Project license (e.g. MIT)
+24074613_ML_Code.ipynb – Jupyter notebook containing complete runnable code
+24074613_ML_Report.pdf – Final written tutorial submitted for assessment
+figures/ – Folder containing all exported figures used in the tutorial
+- loss_curves.png
+- accuracy_curves.png
+- test_accuracy_bar.png
+- cm_baseline.png
+- cm_flip.png
+- cm_rotation.png
+- cm_shiftzoom.png
+- cm_heavy.png
+README.md – This file
+LICENSE – MIT license
+
 
 
 ## Installation
