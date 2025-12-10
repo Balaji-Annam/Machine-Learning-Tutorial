@@ -18,8 +18,8 @@ The repository is organised as follows:
 - cm_rotation.png
 - cm_shiftzoom.png
 - cm_heavy.png
-- README.md – This file
-- LICENSE – MIT license
+- README.md # This file
+- LICENSE # MIT license
 
 
 
