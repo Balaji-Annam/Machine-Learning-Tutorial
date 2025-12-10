@@ -31,7 +31,7 @@ To launch the notebook:
 
 jupyter notebook 24074613_ML_Code.ipynb
 
-## The notebook will:
+The notebook will:
 
 • Load and preprocess CIFAR-10
 • Train five CNN models (baseline, flip, rotation, shift–zoom, heavy)
