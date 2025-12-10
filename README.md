@@ -4,9 +4,11 @@
 This repository contains the complete code, figures, and written tutorial for the assignment titled “Data Augmentation for Convolutional Neural Networks.” The project investigates how different augmentation strategies—horizontal flip, rotation, shift–zoom, and a heavy combined augmentation—affect the performance of a CNN trained on the CIFAR-10 dataset. All models use an identical architecture so that differences in performance can be attributed solely to the augmentation technique applied.
 
 ### Repository Structure
+The repository is organised as follows:
+
 
 ├── notebook/
-|  └── 24074613_ML_Code.ipynb    # Full experiment code and plots with complete runnable code
+|  └── 24074613_ML_Code.ipynb    
 ├── figures/                                     # Folder containing all exported figures
 |  ├── loss_curves.png                           # Training loss vs epoch
 |  ├── accuracy_curves.png                       # Validation accuracy vs epoch
