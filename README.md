@@ -5,19 +5,20 @@ This repository contains the complete code, figures, and written tutorial for th
 
 ## Repository Structure
 
-24074613_ML_Code.ipynb – Jupyter notebook containing complete runnable code
-tutorial.pdf – Final written tutorial submitted for assessment
-figures/ – Folder containing all exported figures used in the tutorial
-• loss_curves.png
-• accuracy_curves.png
-• test_accuracy_bar.png
-• cm_baseline.png
-• cm_flip.png
-• cm_rotation.png
-• cm_shiftzoom.png
-• cm_heavy.png
-README.md – This file
-LICENSE – MIT license
+24074613_ML_Report                # Final Written Report Submitted for Assessment
+├── notebook/
+|  └── 24074613_ML_Code.ipynb    # Full experiment code and plots with complete runnable code
+├── figures/                                     # Folder containing all exported figures
+|  ├── loss_curves.png                           # Training loss vs epoch
+|  ├── accuracy_curves.png                       # Validation accuracy vs epoch
+|  ├── test_accuracy_bar.png                     # Test Accuracy for Bar
+|  ├── cm_baseline.png                           
+|  ├── cm_flip.png                               
+|  ├── cm_rotation.png                           
+|  ├── cm_shiftzoom.png
+|  ├── cm_heavy.png
+├── README.md                                    # This documentation file
+├── LICENSE                                      # Project license (e.g. MIT)
 
 ## Installation
 
@@ -29,16 +30,16 @@ Running the Notebook
 
 To launch the notebook:
 
-jupyter notebook 24074613_ML_Code.ipynb
+jupyter notebook - 24074613_ML_Code.ipynb
 
 The notebook will:
 
-• Load and preprocess CIFAR-10
-• Train five CNN models (baseline, flip, rotation, shift–zoom, heavy)
-• Generate learning curves (training/validation loss and accuracy)
-• Produce a bar chart comparing test accuracies
-• Compute classification reports and confusion matrices
-• Save all plots into the figures/ directory
+- Load and preprocess CIFAR-10
+- Train five CNN models (baseline, flip, rotation, shift–zoom, heavy)
+- Generate learning curves (training/validation loss and accuracy)
+- Produce a bar chart comparing test accuracies
+- Compute classification reports and confusion matrices
+- Save all plots into the figures/ directory
 
 All figures included in the PDF tutorial can be reproduced by running the notebook.
 
@@ -51,18 +52,19 @@ Shift–Zoom – 0.7379
 Heavy – 0.7190
 
 ## Key Insight:
+
 Light augmentation such as horizontal flipping performs almost as well as the baseline model, while stronger geometric transformations—especially rotation and combined heavy augmentation—reduce accuracy. The study demonstrates that augmentation must encode meaningful invariances present in the dataset; otherwise, it acts as noise and degrades performance.
 
-Accessibility Considerations
+## Accessibility Considerations
 
 This project follows recommended accessibility guidelines:
 
-• Colour-blind-safe palettes were used in all plots
-• High-contrast axis labels and tick marks
-• Alt-text descriptions provided for every figure in the tutorial
-• Legends include markers/shapes, not only colour
-• Tables designed to remain readable without colour
-• Clear heading levels for screen reader compatibility
+- Colour-blind-safe palettes were used in all plots
+- High-contrast axis labels and tick marks
+- Alt-text descriptions provided for every figure in the tutorial
+- Legends include markers/shapes, not only colour
+- Tables designed to remain readable without colour
+- Clear heading levels for screen reader compatibility
 
 ## References
 
@@ -74,9 +76,12 @@ Shorten, C., & Khoshgoftaar, T. M. (2019). A survey on image data augmentation f
 Additional references are included in the full PDF tutorial.
 
 ## Citation
+
 if you use this repository in academic or instructional work, please cite it as:
 
-[Annam Balaji] (2025). "Data Augmentation for Convolutional Neural Networks."
+[Annam Balaji] (2025). "Data Augmentation for CNNs: A Comparative Study on CIFAR-10."
+
+Github Repository: https://github.com/Balaji-Annam/Machine-Learning-Tutorial.git
 
 ## License
 
