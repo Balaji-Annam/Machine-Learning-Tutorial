@@ -22,6 +22,7 @@ project/
 ├── README.md                        # This documentation file
 └── LICENSE                          # Project license (e.g. MIT)
 
+
 ## Installation
 
 To install required dependencies, run:
