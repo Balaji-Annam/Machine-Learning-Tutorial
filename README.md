@@ -9,7 +9,7 @@ The repository is organised as follows:
 
 - 24074613_ML_Code.ipynb  #Jupyter notebook containing complete runnable code
 - 24074613_ML_Report.pdf  #Final written tutorial submitted for assessment
-- figures # Folder containing all exported figures used in the tutorial
+- figures                 # Folder containing all exported figures used in the tutorial
 - loss_curves.png
 - accuracy_curves.png
 - test_accuracy_bar.png
