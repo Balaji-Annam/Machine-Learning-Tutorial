@@ -5,7 +5,6 @@ This repository contains the complete code, figures, and written tutorial for th
 
 ### Repository Structure
 
-24074613_ML_Report                # Final Written Report Submitted for Assessment
 ├── notebook/
 |  └── 24074613_ML_Code.ipynb    # Full experiment code and plots with complete runnable code
 ├── figures/                                     # Folder containing all exported figures
