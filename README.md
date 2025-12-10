@@ -8,18 +8,18 @@ The repository is organised as follows:
 
 
 ├── notebook/
-|  └── 24074613_ML_Code.ipynb    
+  └── 24074613_ML_Code.ipynb    
 ├── figures/                                     # Folder containing all exported figures
-|  ├── loss_curves.png                           # Training loss vs epoch
-|  ├── accuracy_curves.png                       # Validation accuracy vs epoch
-|  ├── test_accuracy_bar.png                     # Test Accuracy for Bar
-|  ├── cm_baseline.png                           
-|  ├── cm_flip.png                               
-|  ├── cm_rotation.png                           
-|  ├── cm_shiftzoom.png
-|  ├── cm_heavy.png
-├── README.md                                    # This documentation file
-├── LICENSE                                      # Project license (e.g. MIT)
+│   ├── loss_curves.png                           # Training loss vs epoch
+│   ├── accuracy_curves.png                       # Validation accuracy vs epoch
+│   ├── test_accuracy_bar.png                     # Test Accuracy for Bar
+│   ├── cm_baseline.png                           
+│   ├── cm_flip.png                               
+│   ├── cm_rotation.png                           
+│   ├── cm_shiftzoom.png
+│   ├── cm_heavy.png
+├── README.md                                     # This documentation file
+├── LICENSE                                       # Project license (e.g. MIT)
 
 ## Installation
 
